@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="ButtonControl.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ButtonControl"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="30,30,0,0" TextWrapping="Wrap" Text="Relay Control" VerticalAlignment="Top" FontSize="36"/>
+        <ToggleSwitch x:Name="toggleSwitch1" Header="Channel 1" HorizontalAlignment="Left" Margin="30,200,0,0" VerticalAlignment="Top" Toggled="toggleSwitch1_Toggled"/>
+        <ToggleSwitch x:Name="toggleSwitch2" Header="Channel 2" HorizontalAlignment="Left" Margin="230,200,0,0" VerticalAlignment="Top" Toggled="toggleSwitch2_Toggled"/>
+        <ToggleSwitch x:Name="toggleSwitch3" Header="Channel 3" HorizontalAlignment="Left" Margin="430,200,0,0" VerticalAlignment="Top" Toggled="toggleSwitch3_Toggled"/>
+        <ToggleSwitch x:Name="toggleSwitch4" Header="Channel 4" HorizontalAlignment="Left" Margin="630,200,0,0" VerticalAlignment="Top" Toggled="toggleSwitch4_Toggled"/>
+
+    </Grid>
+</Page>
